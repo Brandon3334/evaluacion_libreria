@@ -12,6 +12,17 @@ class EditorialAdmin(admin.ModelAdmin):
 
 @admin.register(Libro)
 class LibroAdmin(admin.ModelAdmin):
-    list_display = ("titulo", "autor", "isbn", "precio", "fecha_publicacion", "editorial")
+    list_display = (
+        "titulo",
+        "autor",
+        "isbn",
+        "precio_formateado",
+        "fecha_publicacion",
+        "editorial",
+    )
     list_filter = ("editorial", "fecha_publicacion")
     search_fields = ("titulo", "autor", "isbn", "editorial__nombre")
+
+    @admin.display(description="Precio")
+    def precio_formateado(self, obj):
+        return f"${obj.precio:,.0f}".replace(",", ".")
