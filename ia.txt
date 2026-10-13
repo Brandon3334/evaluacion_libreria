@@ -1,0 +1,9 @@
+USO DE ia 
+IA que use Copilot que viene integrada con visual
+
+use ia para los comandos del entorno virtual ya que me dio un error al principio porque no los habia puesto en orden entonces le pregunte porque pasaba
+
+segundo uso fue me ayudo a crear el token en github ya que al querer subir el repositorio me pedia crear un token y normalmente antes solo me pedia el usuario y el correo de la cuenta de github
+
+y el ultimo uso fue mas que nada que me fue guiando en la parte de la creacion de los usuarios con los permisos que tenian que tener la creacion de los libros y los catalogos 
+
